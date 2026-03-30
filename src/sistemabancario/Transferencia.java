@@ -4,13 +4,13 @@
  */
 package sistemabancario;
 
-public class transferencia extends Transaccion{
+public class Transferencia extends Transaccion{
     private Cuenta cuentaOrigen;
     private Cuenta cuentaDestino;
 
-    public transferencia() {}
+    public Transferencia() {}
 
-    public transferencia(Cuenta cuentaOrigen, Cuenta cuentaDestino, double monto) {
+    public Transferencia(Cuenta cuentaOrigen, Cuenta cuentaDestino, double monto) {
         
         this.cuentaOrigen = cuentaOrigen;
         this.cuentaDestino = cuentaDestino;

@@ -4,7 +4,7 @@
  */
 package sistemabancario;
 
-public abstract class Retiro {
+public class Retiro extends Transaccion {
     private Cuenta cuentaOrigen;
     private double monto;
 
@@ -14,6 +14,4 @@ public abstract class Retiro {
         this.cuentaOrigen = cuentaOrigen;
         this.monto = monto;
     }
-
-    public abstract void procesar();
 }

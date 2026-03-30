@@ -8,7 +8,7 @@ package sistemabancario;
  *
  * @author UsuarioChris
  */
-public class Deposito {
+public class Deposito extends Transaccion {
     private Cuenta cuentaDestino;
     private double monto;
 
@@ -27,6 +27,7 @@ public class Deposito {
         this.cuentaDestino = cuentaDestino;
     }
 
+    @Override
     public void procesar() {
         cuentaDestino.depositar(monto);
     }
