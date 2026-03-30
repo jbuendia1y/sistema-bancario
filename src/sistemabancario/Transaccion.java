@@ -18,6 +18,8 @@ public abstract class Transaccion {
 
 
         public Transaccion() {
+            
+            
         }
 
         //Constructor parametrizado con los atributos
