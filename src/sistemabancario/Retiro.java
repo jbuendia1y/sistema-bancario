@@ -14,4 +14,9 @@ public class Retiro extends Transaccion {
         this.cuentaOrigen = cuentaOrigen;
         this.monto = monto;
     }
+
+    @Override
+    public void procesar() {
+        
+    }
 }
